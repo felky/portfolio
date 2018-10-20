@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+p, a {
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    padding-left: 150px;
+    padding-right: 150px;
+    height: 100px;
+    border-style: dotted;
+    border-width: 1px;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.topHeader {
+    height: 500px; 
+    background-color: darkslategray;
+}
+
+.headerTitle {
+    text-align: center;
+    padding: 200px;
+    color: white;
+    margin: auto;
+}
+
+.divContainer {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
